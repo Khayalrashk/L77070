@@ -26,7 +26,7 @@ async def devid(client: Client, message: Message):
        
     await message.reply_photo(
         photo="downloads/developer.jpg",
-        caption=f"""<b>-› 𝙽𝙰𝙼𝙴 ¦ :{name}\n -› 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 ¦ :@{usrnam}\n -› 𝙸𝙳 ¦ :`{uid}`\n -› 𝙱𝙸𝙾 ¦ :{bio}""",
+        caption=f"""<b>• 𝐍𝐚𝐦𝐞 𓏺 {name}\n• 𝐔𝐬𝐞 𓏺 @{usrnam}\n• 𝐈𝐝 𓏺 {uid}\n• 𝐁𝐢𝐨 𓏺 {bio}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -34,7 +34,7 @@ async def devid(client: Client, message: Message):
                          name, url=f"https://t.me/{usrnam}"), 
                  ],[
                    InlineKeyboardButton(
-                        "• 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 ♩", url=f"https://t.me/SOURCELARIN"),
+                        "○ 𝐌𝐲 𝐖𝐨𝐫𝐥𝐝 ○", url=f"https://t.me/KHAYAL70"),
                 ],
 
             ]
