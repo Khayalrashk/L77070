@@ -13,7 +13,7 @@ from ZeMusic import app
 from random import  choice, randint
                 
 @app.on_message(
-  command(["سورس","تنصيب"," ","السورس"])
+  command(["تنصيب"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
@@ -23,7 +23,10 @@ reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧 🎧", url=f"https://t.me/SOURCELARIN"),         
+                         "𝐃𝐞𝐯 𝐒𝐨𝐮𝐫𝐜𝐞", url=f"https://t.me/F_A_6"), 
+                 ],[
+                   InlineKeyboardButton(
+                        "𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐚𝐫𝐢𝐧", url=f"https://t.me/SOURCELARIN"),
                 ],
 
             ]
