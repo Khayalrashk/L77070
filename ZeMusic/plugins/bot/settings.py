@@ -33,7 +33,6 @@ from ZeMusic.utils.inline.settings import (
     setting_markup,
     vote_mode_markup,
 )
-from ZeMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
