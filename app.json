@@ -31,7 +31,7 @@
       },
       "START_IMG_URL": {
         "description": "رابط صوره start او اتركه كما هو.",
-        "value": "https://graph.org/file/57036e277059ef8608dd3.jpg",
+        "value": "https://telegra.ph/file/d4191afc187a6f9741443.jpg",
         "required": true
       },
       "CHANNEL_NAME": {
