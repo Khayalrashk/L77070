@@ -17,7 +17,7 @@ def start_panel(_):
             InlineKeyboardButton(text="𝐃𝐞𝐯", user_id=config.OWNER_ID),
             InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)
         ],
-        [InlineKeyboardButton(text="صناعة بوت مماثل", url=f"https://t.me/SOURCELARIN"),
+        [InlineKeyboardButton(text="○ 𝐌𝐲 𝐖𝐨𝐫𝐥𝐝 ○", url=f"https://t.me/KHAYAL70"),
 ],
 
     ]
@@ -37,7 +37,7 @@ def private_panel(_):
             InlineKeyboardButton(text="𝐃𝐞𝐯", user_id=config.OWNER_ID),
             InlineKeyboardButton(text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)
         ],
-        [InlineKeyboardButton(text="صناعة بوت مماثل", url=f"https://t.me/SOURCELARIN"),
+        [InlineKeyboardButton(text="○ 𝐌𝐲 𝐖𝐨𝐫𝐥𝐝 ○", url=f"https://t.me/KHAYAL70"),
  ],
     ]
     return buttons
