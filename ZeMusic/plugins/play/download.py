@@ -14,6 +14,7 @@ import config
 from ZeMusic import app
 from ZeMusic.plugins.play.filters import command
 
+khayal70 = "khayal70"
 def remove_if_exists(path):
     if os.path.exists(path):
         os.remove(path)
