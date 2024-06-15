@@ -15,7 +15,7 @@ from random import  choice, randint
 
 #          
                 
-@app.on_message(command(["المبرمج","مبرمج","مبرمج السورس","مطور السورس","خيال"]))
+@app.on_message(command(["المبرمج","مبرمج","مبرمج السورس","مطور السورس"]))
 async def devid(client: Client, message: Message):
     usr = await client.get_chat(5901732027)
     name = usr.first_name
